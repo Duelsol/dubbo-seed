@@ -12,7 +12,7 @@ import javax.annotation.PostConstruct;
 @SpringBootApplication
 public class ConsumerServiceApplication {
 
-    @DubboReference(version = "${demo.service.version}")
+    @DubboReference(version = "${demo.service.version}", check = false)
     private DemoService demoService;
 
     @PostConstruct
