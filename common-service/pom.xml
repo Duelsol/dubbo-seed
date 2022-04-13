@@ -6,5 +6,5 @@
     <groupId>me.duelsol</groupId>
     <artifactId>common-service</artifactId>
     <version>1.0.0</version>
-    <name>consumer-service</name>
+    <name>common-service</name>
 </project>
